@@ -5,7 +5,7 @@ import json
 rq = req.REQ()
 qry = dbconnect.DBConnect()
 
-def create_a_product():
+def test_create_a_product():
     print("Running 'create product' endpoint test ....")
 
     #set global variables to be used in different methods
@@ -58,6 +58,6 @@ def test_verify_product_created_in_db():
     print("The test_verify_product_created_in_db test PASS")
 
 
-create_a_product()
+test_create_a_product()
 test_verify_product_created_in_db()
 
